@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><Broker>
+<CompiledApplication>
+<ConfigurableProperty uri="startMode"/>
+</CompiledApplication>
+<CompiledMessageFlow name="SampleHTTPFlow">
+<ConfigurableProperty uri="SampleHTTPFlow#additionalInstances"/>
+<ConfigurableProperty uri="SampleHTTPFlow#notificationThresholdMsgsPerSec"/>
+<ConfigurableProperty uri="SampleHTTPFlow#maximumRateMsgsPerSec"/>
+<ConfigurableProperty uri="SampleHTTPFlow#processingTimeoutSec"/>
+<ConfigurableProperty uri="SampleHTTPFlow#processingTimeoutAction"/>
+<ConfigurableProperty uri="SampleHTTPFlow#wlmPolicy"/>
+<ConfigurableProperty uri="SampleHTTPFlow#commitCount"/>
+<ConfigurableProperty uri="SampleHTTPFlow#commitInterval"/>
+<ConfigurableProperty uri="SampleHTTPFlow#coordinatedTransaction"/>
+<ConfigurableProperty uri="SampleHTTPFlow#consumerPolicySet"/>
+<ConfigurableProperty uri="SampleHTTPFlow#providerPolicySet"/>
+<ConfigurableProperty uri="SampleHTTPFlow#consumerPolicySetBindings"/>
+<ConfigurableProperty uri="SampleHTTPFlow#providerPolicySetBindings"/>
+<ConfigurableProperty uri="SampleHTTPFlow#securityProfileName"/>
+<ConfigurableProperty uri="SampleHTTPFlow#monitoringProfile"/>
+<ConfigurableProperty uri="SampleHTTPFlow#startMode"/>
+<ConfigurableProperty uri="SampleHTTPFlow#startInstancesWhenFlowStarts"/>
+<ConfigurableProperty override="/testhttp" uri="SampleHTTPFlow#HTTP Input.URLSpecifier"/>
+<ConfigurableProperty uri="SampleHTTPFlow#HTTP Input.useHTTPS"/>
+<ConfigurableProperty uri="SampleHTTPFlow#HTTP Input.decompressInputMessage"/>
+<ConfigurableProperty uri="SampleHTTPFlow#HTTP Input.timeoutForClient"/>
+<ConfigurableProperty uri="SampleHTTPFlow#HTTP Input.faultFormat"/>
+<ConfigurableProperty uri="SampleHTTPFlow#HTTP Input.validateMaster"/>
+<ConfigurableProperty uri="SampleHTTPFlow#HTTP Input.securityProfileName"/>
+<ConfigurableProperty uri="SampleHTTPFlow#HTTP Reply.validateMaster"/>
+<ConfigurableProperty uri="SampleHTTPFlow#Compute.dataSource"/>
+<ConfigurableProperty uri="SampleHTTPFlow#Compute.connectDatasourceBeforeFlowStarts"/>
+<ConfigurableProperty uri="SampleHTTPFlow#Compute.validateMaster"/>
+</CompiledMessageFlow>
+</Broker>

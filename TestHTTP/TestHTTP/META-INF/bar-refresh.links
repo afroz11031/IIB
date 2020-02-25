@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy:Deploy xmlns:deploy="http://www.ibm.com/xmlns/prod/wmb/deploy/6.0.0" overrideConfigurableProperties="false" includeESQL="false">
+  <deployables>
+    <deployable deployed="true" barResourceTimeStamp="1542888895643" workspaceResource="/TestHTTP/SampleHTTPFlow.msgflow">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TestHTTP\SampleHTTPFlow.msgflow.&#xA;Successfully added file TestHTTP\SampleHTTPFlow.msgflow to BAR file.&#xA;" severity="0"/>
+      <barEntry name="SampleHTTPFlow.msgflow"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1542891596757" workspaceResource="/TestHTTP/SampleHTTPFlow_Compute.esql">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TestHTTP\SampleHTTPFlow_Compute.esql.&#xA;Successfully added file TestHTTP\SampleHTTPFlow_Compute.esql to BAR file.&#xA;" severity="0"/>
+      <barEntry name="SampleHTTPFlow_Compute.esql"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1542888937959" workspaceResource="/TestHTTP/SampleHTTPFlow_inputMessage.xml">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TestHTTP\SampleHTTPFlow_inputMessage.xml.&#xA;Successfully added file TestHTTP\SampleHTTPFlow_inputMessage.xml to BAR file.&#xA;" severity="0"/>
+      <barEntry name="SampleHTTPFlow_inputMessage.xml"/>
+    </deployable>
+    <deployable deployed="true" barResourceTimeStamp="1542886840956" workspaceResource="/TestHTTP/application.descriptor">
+      <deployableStatus code="0" key="DEPLOYABLE_LAST_COMPILE_STATUS" message="&#xA;Processing file TestHTTP\application.descriptor.&#xA;Successfully added file TestHTTP\application.descriptor to BAR file.&#xA;Elapsed time: 0.001 second(s).&#xA;&#xA;Successfully added file TestHTTP\application.descriptor to BAR file.&#xA;" severity="0"/>
+      <barEntry name="application.descriptor"/>
+    </deployable>
+  </deployables>
+</deploy:Deploy>

@@ -1,0 +1,41 @@
+
+==============================================
+
+!Mon Nov 26 15:27:46 IST 2018
+
+Processing file TestHTTP\SampleHTTPFlow.msgflow.
+Successfully added file TestHTTP\SampleHTTPFlow.msgflow to BAR file.
+
+==============================================
+
+!Mon Nov 26 15:27:46 IST 2018
+
+Processing file TestHTTP\SampleHTTPFlow_Compute.esql.
+Successfully added file TestHTTP\SampleHTTPFlow_Compute.esql to BAR file.
+
+==============================================
+
+!Mon Nov 26 15:27:46 IST 2018
+
+Processing file TestHTTP\SampleHTTPFlow_inputMessage.xml.
+Successfully added file TestHTTP\SampleHTTPFlow_inputMessage.xml to BAR file.
+
+==============================================
+
+!Mon Nov 26 15:27:47 IST 2018
+
+Processing file TestHTTP\application.descriptor.
+Successfully added file TestHTTP\application.descriptor to BAR file.
+Elapsed time: 0.001 second(s).
+
+Successfully added file TestHTTP\application.descriptor to BAR file.
+
+==============================================
+
+!Mon Nov 26 15:27:47 IST 2018
+
+Processing file TestHTTP\application.descriptor.
+Successfully added file TestHTTP\application.descriptor to BAR file.
+Elapsed time: 0.001 second(s).
+
+Successfully added file TestHTTP\application.descriptor to BAR file.
